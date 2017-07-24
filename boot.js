@@ -3,7 +3,7 @@ var boot = {
         this.game.load.image("loading", "loading.png");
         },
     create: function () {
-        this.game.state.start("preload")
+        this.game.state.start("preload");
     
     }
 };
